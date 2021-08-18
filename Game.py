@@ -25,7 +25,7 @@ class Game:
         self.enemies_spawner = 0
 
         # loading images
-        self.background_image = pg.image.load(r'Images\Background2.png').convert()
+        self.background_image = pg.image.load(r'Images/Background.png').convert()
 
     def mainloop(self):
         """Main loop for the game"""

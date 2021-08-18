@@ -10,7 +10,7 @@ class Player(pg.sprite.Sprite):
         self.groups = game.all_sprites, game.layers[1]
         pg.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        self.original_image = pg.image.load(r'Images\Player.png')
+        self.original_image = pg.image.load(r'Images/Player.png')
         self.original_rect = self.original_image.get_rect()
         self.rect = self.original_image.get_rect()
         self.angle = 0
